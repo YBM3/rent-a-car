@@ -1,0 +1,46 @@
+.no-cont-wrap {
+  display: flex;
+  flex-flow: column;
+  /* width: 70%; */
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.no-cont-img {
+  width: 64%;
+  height: 130px;
+  background-image: url('img/no-result-png.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 80%;
+}
+
+.no-cont-txt {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.11;
+}
+
+@media screen and (min-width: 768px) {
+  .no-cont-wrap {
+    width: 75%;
+  }
+
+  .no-cont-img {
+    width: 55%;
+    height: 160px;
+    background-size: 100% 100%;
+  }
+
+  .no-cont-txt {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .no-cont-wrap {
+    width: 50%;
+  }
+}

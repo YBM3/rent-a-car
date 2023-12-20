@@ -1,0 +1,7 @@
+.header {
+  display: flex;
+  min-height: 70px;
+  align-items: center;
+  color: var(--main-txt-cl);
+  background-color: var(--header-bg-cl);
+}

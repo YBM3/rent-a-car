@@ -1,0 +1,26 @@
+.conditions-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+}
+
+.conditions-item {
+  display: flex;
+  height: 32px;
+  padding: 7px 14px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 35px;
+  background: var(--conditions-bg-cl);
+}
+
+.text-accent {
+  font-weight: 600;
+}

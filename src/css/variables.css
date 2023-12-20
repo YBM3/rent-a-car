@@ -1,0 +1,25 @@
+:root {
+  --body-bg-cl: #21033a;
+  --modal-bg-cl: #300a50;
+  --header-bg-cl: #140028;
+  --select-bg-cl: #f7f7fb;
+
+  --main-txt-cl: #fff;
+  --secondary-txt-cl: #121417;
+  --tags-txt-cl: rgba(235, 235, 235, 0.5);
+
+  --conditions-bg-cl: rgba(136, 135, 135, 0.2);
+
+  --logo-accent: #ed2323;
+  --accent-cl: #3470ff;
+  --accent-hover-cl: #0b44cd;
+
+  --fav-btn-stroke: #fff;
+  --fav-btn-hover-cl: #3470ff;
+  --fav-btn-checked-cl: #3470ff;
+
+  --main-gap: 29px;
+  --number-of-items: 1;
+  --number-of-gaps: 0;
+  --transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}

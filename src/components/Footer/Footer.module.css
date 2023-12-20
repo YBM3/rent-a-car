@@ -1,0 +1,28 @@
+.footer {
+  margin-top: auto;
+  min-height: 70px;
+  background-color: var(--header-bg-cl);
+}
+
+.footer-wrap {
+  display: flex;
+  height: 70px;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--tags-txt-cl);
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 1.1px;
+}
+
+.footer-link {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-wrap {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,43 @@
+.hero {
+  text-align: center;
+}
+
+.hero-title {
+  margin-bottom: 50px;
+
+  font-family: BDSans;
+  font-size: 33px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+
+.hero-title-accent {
+  color: var(--logo-accent);
+}
+
+.hero-descr {
+  margin-bottom: 70px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+
+.hero .hero-btn {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 60px;
+  }
+
+  .hero-descr {
+    margin-bottom: 100px;
+    font-size: 23px;
+  }
+
+  .hero .hero-btn {
+    width: 300px;
+  }
+}
