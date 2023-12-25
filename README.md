@@ -42,5 +42,3 @@ allows users to see detailed information about the car.
 ##
 
 > Developed by [**Aleksander Porakh**](https://www.linkedin.com/in/aliaksandr-porakh-34ba96235/)
-
-fwf
