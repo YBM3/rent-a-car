@@ -2,7 +2,7 @@
   "name": "rent-a-car",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "/rent-a-car/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.17.0",
